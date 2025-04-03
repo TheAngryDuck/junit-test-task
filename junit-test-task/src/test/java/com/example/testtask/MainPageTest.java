@@ -46,7 +46,6 @@ public class MainPageTest {
         List<WebElement> elements = driver.findElements(By.className("locations-wrap__item"));
         for (int i = 0; i < elements.size() - 1; i++) {
             out.println(elements.get(i).getText());
-            System.out.println(elements.get(i).getText());
         }
     }
 
